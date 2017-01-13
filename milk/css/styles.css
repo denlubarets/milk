@@ -1,0 +1,73 @@
+#section-content-tile {background-color: mintcream;}
+#mainpage { width:100%}
+.logo {float: left; width: 150px; margin:30px 0 20px 20px}
+.top_menu {width: 1000px; position:relative; top: 100px }
+.top_menu2 {padding-left: 0;float: left;margin: 0; position: absolute; right: 50px}
+.top_menu2 li {display: inline-block;vertical-align: top;zoom: 1;*display: inline;
+    _height: 1em; text-align: left}
+.top_menu2 li:first-child{margin-left: 0;align: left  }
+.top_menu2 li a{font-family:kievitwebpro-exling, helvetica, arial, sens-srerif; color: #ffffff;text-transform: capitalize;
+font-size: 19px;font-size: 1.9rem;line-height: 30px;line-height: 3rem;font-weight: 100;text-decoration: none}
+.top_menu2 li a:hover {text-decoration: underline}
+.list-nav{font-size: 19px}
+.images2 {width: 350px; height: 500px; float: left;}
+.imagehelth {width: 350px; float: left; margin: 10px}
+.imagebrend {position: relative; left:20px; height: 200px}
+.imagelab {float: left; margin: 10px}
+.imagecowsjoy {float: left; margin: 10px}
+.imagerecipe {float: left; margin: 10px}
+.imagecareer {margin:10px}
+.recipes ul {list-style: none}
+.wrapper {width: 900px; margin: 0 auto}
+header {margin:0 auto;
+    display: block;
+    width:100%; height: 145px;
+    background: #649edb;
+    background: -moz-linear-gradient(top,  #649edb 0%, #2989d8 37%, #2a81c9 72%, #3b9ae2 100%);
+    background: -webkit-linear-gradient(top,  #649edb 0%,#2989d8 37%,#2a81c9 72%,#3b9ae2 100%);
+    background: linear-gradient(to bottom,  #649edb 0%,#2989d8 37%,#2a81c9 72%,#3b9ae2 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#649edb', endColorstr='#3b9ae2',GradientType=0 );
+overflow: hidden;}
+header ul {list-style: none; padding: 0;display: inline; margin: 0; }
+header ul li{ float: left }
+header ul li a {text-decoration: none; padding: 0 10px;height:44px;
+    display: block; line-height: 44px;padding-top: 1px}
+header ul li a:hover {background:rgba(0,0,0,0.05);color: #f6f6f6;
+    outline: solid 1px greenyellow; text-shadow: 1px 1px 0 #6d8a4c;}
+.relative{position:relative}
+#homepage-tiles{margin:20px auto 0;overflow:hidden;text-align:center;padding-left:0;padding-bottom:10px;width:280px}
+#homepage-tiles li{width:280px}#homepage-tiles li.fact1-tile img{width:140px}#homepage-tiles li img{width:280px}
+#homepage-tiles li{display:inline-block;vertical-align:top;zoom:1;
+    *display:inline;_height:100px;margin-bottom:20px}
+#homepage-tiles li.fact1-tile{text-align:right}@media only screen and (min-width:480px)
+{#homepage-tiles{position:relative;width:440px;height:700px}#homepage-tiles .news-tile{left:0;top:0}
+    #homepage-tiles .community-tile{left:230px;top:0}#homepage-tiles .careers-tile{left:230px;top:115px}
+    #homepage-tiles .products-tile{left:0;top:230px}#homepage-tiles .nutrition-tile{left:230px;top:230px}
+    #homepage-tiles .sustainability-tile{left:0;top:345px}#homepage-tiles .fact1-tile{left:230px;top:575px}
+    #homepage-tiles .financial-tile{left:230px;top:345px}#homepage-tiles .fact2-tile{left:0;top:575px}
+    #homepage-tiles li{width:210px}#homepage-tiles li.fact1-tile img{width:95px}#homepage-tiles li img{width:210px}
+    #homepage-tiles li{-webkit-transition:.5s;transition:.5s;position:absolute}}
+@media only screen and (min-width:768px)
+{#homepage-tiles{width:700px;height:500px}#homepage-tiles .news-tile{left:0;top:0}
+    #homepage-tiles .community-tile{left:240px;top:0}
+    #homepage-tiles .careers-tile{left:240px;top:120px}#homepage-tiles .products-tile{left:0;top:240px}
+    #homepage-tiles .nutrition-tile{left:480px;top:0}#homepage-tiles .sustainability-tile{left:240px;top:240px}
+    #homepage-tiles .fact1-tile{left:480px;top:120px}#homepage-tiles .financial-tile{left:480px;top:240px}
+    #homepage-tiles .fact2-tile{left:0;top:360px}#homepage-tiles li{width:220px}
+    #homepage-tiles li.fact1-tile img{width:110px}
+    #homepage-tiles li img{width:220px}}@media only screen and (min-width:992px)
+{#homepage-tiles{width:970px;height:400px}#homepage-tiles .news-tile{left:0;top:0}
+    #homepage-tiles .community-tile{left:250px;top:0}#homepage-tiles .careers-tile{left:250px;top:125px}
+    #homepage-tiles .nutrition-tile{left:625px;top:0}#homepage-tiles .products-tile{left:0;top:250px}
+    #homepage-tiles .sustainability-tile{left:500px;top:125px}#homepage-tiles .fact1-tile{left:875px;top:0}
+    #homepage-tiles .financial-tile{left:750px;top:125px}#homepage-tiles .fact2-tile{left:250px;top:250px}
+    #homepage-tiles li{width:230px}#homepage-tiles li.fact1-tile img{width:110px}
+    #homepage-tiles li img{width:230px}
+    #homepage-tiles li.fact1-tile{width:110px}}@media only screen and (min-width:1200px)
+{#homepage-tiles{width:1150px;height:400px}#homepage-tiles .news-tile{left:0;top:0}
+    #homepage-tiles .community-tile{left:260px;top:0}#homepage-tiles .careers-tile{left:260px;top:130px}
+    #homepage-tiles .nutrition-tile{left:650px;top:0}#homepage-tiles .products-tile{left:130px;top:260px}
+    #homepage-tiles .sustainability-tile{left:520px;top:130px}#homepage-tiles .fact1-tile{left:780px;top:130px}
+    #homepage-tiles .financial-tile{left:910px;top:0}#homepage-tiles .fact2-tile{left:780px;top:260px}
+    #homepage-tiles li{width:240px}#homepage-tiles li.fact1-tile img{width:110px}
+    #homepage-tiles li img{width:240px}}
