@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <link type="text/css" href="css/style.css" rel="stylesheet">
+
+
+
+
+<title>Chat</title>
+</head>
+<body>
+<div id="chat">
+  <div id="header">
+      <img src="images/sus.jpeg" id="logotype"
+           title="Древняя цивилизация ASUS" alt="logo"/>
+      <ul><li title="Вы в сети">Time online</li>
+          <li title="Время">Your local time</li>
+          <li title="Ваша информация"><a href="#">Edit personal info</a></li>
+          <li title="Личные сообщения"><a href="#">Private messages</a></li>
+      </ul>
+<p id="logo" align="right" title="Знаете ли вы что..." >
+    Чат, где вы узнаете как всё работает!</p>
+
+
+
+  </div>
+
+  <div id="wrapper">
+
+      <div id="users">
+          <div class="info" title="Пользователей онлайн">Online:</div>
+        <div id="list" title="users"></div>
+
+      </div>
+
+      <div id="chatbox">
+        <div id="chatbox_1" title="messages"></div>
+
+      </div>
+    <div id="your_text">
+      <form action="#chatbox_1" method="get" name="your_letter" id="your_letter">
+<p> <textarea name="comment" class="comment" title="Ваше слово" cols="66" rows="4">
+
+</textarea> </p>
+          <ul class="info" >
+          <li title="Элемент для отображения общего кол-ва введенных символов">
+              characters entered</li>
+          <li title="Элемент для отображения кол-ва введенных букв">
+              letters entered</li>
+          <li title="Элемент для отображения кол-ва
+               невидимых символов (пробел, символ табуляции, перенос строки)">
+              whitespace characters entered</li>
+          <li title="Элемент для отображения кол-ва введенных знаков препинания">
+              punctuation marks entered</li>
+      </ul>
+     <p align="right"> <input name="submit" title="Послать всё!"
+                              type="submit" class="submit" value="Отправить"> </p>
+
+
+      </form>
+      </div>
+
+  </div>
+
+  <div id="footer">
+<p class="info" title="Год изготовления продукта">&copy;2017</p>
+  </div>
+
+</div>
+
+
+
+</body>
+</html>
